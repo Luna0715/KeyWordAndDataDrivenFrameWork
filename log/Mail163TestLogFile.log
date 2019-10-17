@@ -1,0 +1,106 @@
+2019-10-16 16:30:53 TestSendMailAndCreateContacts.py[line:28] INFO --执行测试用例'登录163邮箱'--
+2019-10-16 16:30:53 TestSendMailAndCreateContacts.py[line:47] INFO ******调用关键字驱动******
+2019-10-16 16:30:53 TestSendMailAndCreateContacts.py[line:51] INFO 测试用例共 14 步
+2019-10-16 16:30:55 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '打开浏览器' 成功
+2019-10-16 16:30:57 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '访问被测试网址http://mail.163.com' 成功
+2019-10-16 16:30:59 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '最大化窗口' 成功
+2019-10-16 16:31:04 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '等待163邮箱登录主页加载完成' 成功
+2019-10-16 16:31:04 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '断言当前活动页面源码中是否包含“163网易免费邮--中文邮箱第一品牌”' 成功
+2019-10-16 16:31:04 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '切换登录方式为账号密码登录' 成功
+2019-10-16 16:31:04 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '显示等待xpath为//*[@class="loginForm"]//iframe的frame框的出现，然后切换进入该frame框中' 成功
+2019-10-16 16:31:04 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '输入登录用户名' 成功
+2019-10-16 16:31:04 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '输入登录密码' 成功
+2019-10-16 16:31:04 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '单击“登录”按钮' 成功
+2019-10-16 16:31:09 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '等待' 成功
+2019-10-16 16:31:10 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '切回默认会话窗体' 成功
+2019-10-16 16:31:10 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '断言登录成功后的页面标题是否包含“网易邮箱”关键内容' 成功
+2019-10-16 16:31:10 TestSendMailAndCreateContacts.py[line:90] INFO 用例 '登录163邮箱' 执行通过
+2019-10-16 16:31:10 TestSendMailAndCreateContacts.py[line:28] INFO --执行测试用例'添加联系人'--
+2019-10-16 16:31:10 TestSendMailAndCreateContacts.py[line:30] INFO ******调用数据驱动******
+2019-10-16 16:31:10 CreateContacts.py[line:21] INFO 开始添加联系人 'sr@qq.com'
+2019-10-16 16:31:10 CreateContacts.py[line:61] INFO 执行步骤 '单击“通讯录”链接，进入通讯录页面' 成功
+2019-10-16 16:31:14 CreateContacts.py[line:61] INFO 执行步骤 '显式等待“新建联系人”按钮在页面上可见' 成功
+2019-10-16 16:31:14 CreateContacts.py[line:61] INFO 执行步骤 '单击“新建联系人”按钮' 成功
+2019-10-16 16:31:14 CreateContacts.py[line:61] INFO 执行步骤 '显式等待输入联系人姓名框是否在页面上可见' 成功
+2019-10-16 16:31:14 CreateContacts.py[line:61] INFO 执行步骤 '输入联系人姓名' 成功
+2019-10-16 16:31:14 CreateContacts.py[line:61] INFO 执行步骤 '输入电子邮箱' 成功
+2019-10-16 16:31:14 CreateContacts.py[line:61] INFO 执行步骤 '设为星标联系人' 成功
+2019-10-16 16:31:14 CreateContacts.py[line:61] INFO 执行步骤 '输入手机号' 成功
+2019-10-16 16:31:15 CreateContacts.py[line:61] INFO 执行步骤 '输入联系人备注信息' 成功
+2019-10-16 16:31:15 CreateContacts.py[line:61] INFO 执行步骤 '单击“确认”按钮保存新联系人' 成功
+2019-10-16 16:31:17 CreateContacts.py[line:61] INFO 执行步骤 '等待2s' 成功
+2019-10-16 16:31:17 CreateContacts.py[line:61] INFO 执行步骤 '断言联系人是否成功添加' 成功
+2019-10-16 16:31:17 CreateContacts.py[line:21] INFO 开始添加联系人 'wcx@qq.com'
+2019-10-16 16:31:17 CreateContacts.py[line:61] INFO 执行步骤 '单击“通讯录”链接，进入通讯录页面' 成功
+2019-10-16 16:31:17 CreateContacts.py[line:61] INFO 执行步骤 '显式等待“新建联系人”按钮在页面上可见' 成功
+2019-10-16 16:31:17 CreateContacts.py[line:61] INFO 执行步骤 '单击“新建联系人”按钮' 成功
+2019-10-16 16:31:17 CreateContacts.py[line:61] INFO 执行步骤 '显式等待输入联系人姓名框是否在页面上可见' 成功
+2019-10-16 16:31:17 CreateContacts.py[line:61] INFO 执行步骤 '输入联系人姓名' 成功
+2019-10-16 16:31:17 CreateContacts.py[line:61] INFO 执行步骤 '输入电子邮箱' 成功
+2019-10-16 16:31:17 CreateContacts.py[line:61] INFO 执行步骤 '设为星标联系人' 成功
+2019-10-16 16:31:17 CreateContacts.py[line:61] INFO 执行步骤 '输入手机号' 成功
+2019-10-16 16:31:17 CreateContacts.py[line:61] INFO 执行步骤 '输入联系人备注信息' 成功
+2019-10-16 16:31:17 CreateContacts.py[line:61] INFO 执行步骤 '单击“确认”按钮保存新联系人' 成功
+2019-10-16 16:31:19 CreateContacts.py[line:61] INFO 执行步骤 '等待2s' 成功
+2019-10-16 16:31:19 CreateContacts.py[line:61] INFO 执行步骤 '断言联系人是否成功添加' 成功
+2019-10-16 16:31:19 CreateContacts.py[line:21] INFO 开始添加联系人 'lucy@126.com'
+2019-10-16 16:31:19 CreateContacts.py[line:61] INFO 执行步骤 '单击“通讯录”链接，进入通讯录页面' 成功
+2019-10-16 16:31:19 CreateContacts.py[line:61] INFO 执行步骤 '显式等待“新建联系人”按钮在页面上可见' 成功
+2019-10-16 16:31:19 CreateContacts.py[line:61] INFO 执行步骤 '单击“新建联系人”按钮' 成功
+2019-10-16 16:31:19 CreateContacts.py[line:61] INFO 执行步骤 '显式等待输入联系人姓名框是否在页面上可见' 成功
+2019-10-16 16:31:20 CreateContacts.py[line:61] INFO 执行步骤 '输入联系人姓名' 成功
+2019-10-16 16:31:20 CreateContacts.py[line:61] INFO 执行步骤 '输入电子邮箱' 成功
+2019-10-16 16:31:20 CreateContacts.py[line:61] INFO 执行步骤 '设为星标联系人' 成功
+2019-10-16 16:31:20 CreateContacts.py[line:61] INFO 执行步骤 '输入手机号' 成功
+2019-10-16 16:31:20 CreateContacts.py[line:61] INFO 执行步骤 '输入联系人备注信息' 成功
+2019-10-16 16:31:20 CreateContacts.py[line:61] INFO 执行步骤 '单击“确认”按钮保存新联系人' 成功
+2019-10-16 16:31:22 CreateContacts.py[line:61] INFO 执行步骤 '等待2s' 成功
+2019-10-16 16:31:22 CreateContacts.py[line:61] INFO 执行步骤 '断言联系人是否成功添加' 成功
+2019-10-16 16:31:22 CreateContacts.py[line:21] INFO 开始添加联系人 'lily@qq.com'
+2019-10-16 16:31:22 CreateContacts.py[line:61] INFO 执行步骤 '单击“通讯录”链接，进入通讯录页面' 成功
+2019-10-16 16:31:22 CreateContacts.py[line:61] INFO 执行步骤 '显式等待“新建联系人”按钮在页面上可见' 成功
+2019-10-16 16:31:22 CreateContacts.py[line:61] INFO 执行步骤 '单击“新建联系人”按钮' 成功
+2019-10-16 16:31:22 CreateContacts.py[line:61] INFO 执行步骤 '显式等待输入联系人姓名框是否在页面上可见' 成功
+2019-10-16 16:31:22 CreateContacts.py[line:61] INFO 执行步骤 '输入联系人姓名' 成功
+2019-10-16 16:31:22 CreateContacts.py[line:61] INFO 执行步骤 '输入电子邮箱' 成功
+2019-10-16 16:31:22 CreateContacts.py[line:61] INFO 执行步骤 '设为星标联系人' 成功
+2019-10-16 16:31:22 CreateContacts.py[line:61] INFO 执行步骤 '输入手机号' 成功
+2019-10-16 16:31:22 CreateContacts.py[line:61] INFO 执行步骤 '输入联系人备注信息' 成功
+2019-10-16 16:31:23 CreateContacts.py[line:61] INFO 执行步骤 '单击“确认”按钮保存新联系人' 成功
+2019-10-16 16:31:25 CreateContacts.py[line:61] INFO 执行步骤 '等待2s' 成功
+2019-10-16 16:31:25 CreateContacts.py[line:61] INFO 执行步骤 '断言联系人是否成功添加' 成功
+2019-10-16 16:31:25 CreateContacts.py[line:21] INFO 开始添加联系人 'anne@126.com'
+2019-10-16 16:31:25 CreateContacts.py[line:61] INFO 执行步骤 '单击“通讯录”链接，进入通讯录页面' 成功
+2019-10-16 16:31:25 CreateContacts.py[line:61] INFO 执行步骤 '显式等待“新建联系人”按钮在页面上可见' 成功
+2019-10-16 16:31:25 CreateContacts.py[line:61] INFO 执行步骤 '单击“新建联系人”按钮' 成功
+2019-10-16 16:31:25 CreateContacts.py[line:61] INFO 执行步骤 '显式等待输入联系人姓名框是否在页面上可见' 成功
+2019-10-16 16:31:25 CreateContacts.py[line:61] INFO 执行步骤 '输入联系人姓名' 成功
+2019-10-16 16:31:25 CreateContacts.py[line:61] INFO 执行步骤 '输入电子邮箱' 成功
+2019-10-16 16:31:25 CreateContacts.py[line:61] INFO 执行步骤 '设为星标联系人' 成功
+2019-10-16 16:31:25 CreateContacts.py[line:61] INFO 执行步骤 '输入手机号' 成功
+2019-10-16 16:31:25 CreateContacts.py[line:61] INFO 执行步骤 '输入联系人备注信息' 成功
+2019-10-16 16:31:25 CreateContacts.py[line:61] INFO 执行步骤 '单击“确认”按钮保存新联系人' 成功
+2019-10-16 16:31:27 CreateContacts.py[line:61] INFO 执行步骤 '等待2s' 成功
+2019-10-16 16:31:27 CreateContacts.py[line:61] INFO 执行步骤 '断言联系人是否成功添加' 成功
+2019-10-16 16:31:27 TestSendMailAndCreateContacts.py[line:40] INFO 用例 添加联系人 执行成功
+2019-10-16 16:31:27 TestSendMailAndCreateContacts.py[line:28] INFO --执行测试用例'发送带附件的邮件'--
+2019-10-16 16:31:27 TestSendMailAndCreateContacts.py[line:47] INFO ******调用关键字驱动******
+2019-10-16 16:31:27 TestSendMailAndCreateContacts.py[line:51] INFO 测试用例共 17 步
+2019-10-16 16:31:27 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '单击“首页”链接，进入邮箱首页' 成功
+2019-10-16 16:31:27 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '判断“写信”按钮是否在页面上可见' 成功
+2019-10-16 16:31:28 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '单击“写信”按钮' 成功
+2019-10-16 16:31:28 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '输入收件人地址' 成功
+2019-10-16 16:31:28 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '输入邮件主题' 成功
+2019-10-16 16:31:28 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '单击“上传附件”链接' 成功
+2019-10-16 16:31:30 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '输入附件所在绝对路径' 成功
+2019-10-16 16:31:30 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '模拟键盘回车键' 成功
+2019-10-16 16:31:31 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '显式等待附件上传完毕' 成功
+2019-10-16 16:31:31 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '如果邮件正文的frame框是可见，切换进该frame中' 成功
+2019-10-16 16:31:31 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '输入邮件正文' 成功
+2019-10-16 16:31:31 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '退出邮件正文的frame' 成功
+2019-10-16 16:31:31 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '单击邮件发送按钮' 成功
+2019-10-16 16:31:35 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '等待邮件发送成功，返回结果' 成功
+2019-10-16 16:31:35 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '断言页面源码中是否出现“发送成功”关键内容' 成功
+2019-10-16 16:31:37 TestSendMailAndCreateContacts.py[line:86] INFO 执行步骤 '关闭浏览器' 成功
+2019-10-16 16:31:37 TestSendMailAndCreateContacts.py[line:90] INFO 用例 '发送带附件的邮件' 执行通过
+2019-10-16 16:31:37 TestSendMailAndCreateContacts.py[line:99] INFO 共 3 条用例，3 条需要被执行，成功执行 3 条
